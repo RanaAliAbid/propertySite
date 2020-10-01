@@ -1,8 +1,3 @@
-php_value upload_max_filesize 256M
-php_value post_max_size 256M
-php_value memory_limit 256M
-
-
 
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
@@ -10,11 +5,11 @@ php_value memory_limit 256M
 # Any changes to the directives between these markers will be overwritten.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /property/
+RewriteBase /propertySite/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /property/index.php [L]
+RewriteRule . /propertySite/index.php [L]
 </IfModule>
 
 # END WordPress
