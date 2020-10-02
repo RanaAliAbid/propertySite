@@ -732,6 +732,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <div class="employees">
+                	<div class="countIcon"><i class="fa fa-group"></i></div>
                     <p class="counter-count">879</p>
                     <p class="employee-p">Existing Customer</p>
                 </div>
@@ -739,6 +740,7 @@
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <div class="customer">
+                	<div class="countIcon"><i class="fa fa-home"></i></div>
                     <p class="counter-count">954</p>
                     <p class="customer-p">Prefabricated Building</p>
                 </div>
@@ -746,6 +748,7 @@
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <div class="design">
+					<div class="countIcon"><i class="fa fa-wrench"></i></div>
                     <p class="counter-count">1050</p>
                     <p class="design-p">Production Area (M2)</p>
                 </div>
@@ -753,6 +756,7 @@
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <div class="order">
+                	<div class="countIcon"><i class="fa fa-check-circle-o"></i></div>
                     <p class="counter-count">652</p>
                     <p class="order-p">Solution Partner</p>
                 </div>

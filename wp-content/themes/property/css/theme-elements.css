@@ -1956,3 +1956,7 @@ hr {
     box-shadow: 0 0 0 1px #dd2e19, 0 0 2px 1px rgb(221 46 25) !important;
     outline: 1px solid transparent !important;
 }
+.countIcon i.fa {
+    color: #ffffff;
+    font-size: 50px;
+}
