@@ -52,7 +52,7 @@ html, body {
 }
 .pagination-container {
   position: absolute;
-  bottom: 8px;
+  bottom: 60px;
   width: 100%;
   text-align: center;
   margin: 0;
@@ -65,7 +65,7 @@ html, body {
   height: 15px;
   border-radius: 50%;
   display: inline-block;
-  cursor: pointer;	
+  cursor: pointer;  
 }
 .dot:not(:last-of-type),
 .thumbnail:not(:last-of-type) {

@@ -21,9 +21,9 @@
 			<!-- End Main Slide -->
 
 
-			<section class="pgl-offer">
+			<section class="pgl-offer" style="margin: -50px 0 0">
 				<div class="container">
-					<h2>We offer</h2>
+					<!-- <h2>We offer</h2> -->
 					<div class="row">
 						<div class="col-md-3 animation">
 							<div class="offer-item pgl-bg-light">
@@ -605,13 +605,13 @@
 								<div class="row pgl-midnarrow-row">
 									<div class="col-xs-5">
 										<div class="img-thumbnail-medium">
-											<a href="agentprofile.html"><img src="<?php bloginfo('template_directory');?>/images/agents/temp-agent.png" class="img-responsive" alt=""></a>
+											<a href="#"><img src="<?php bloginfo('template_directory');?>/images/agents/team-1.jpg" class="img-responsive" alt=""></a>
 										</div>
 									</div>
 									<div class="col-xs-7">
 										<div class="pgl-agent-info">
 											<small>NO.1</small>
-											<h4><a href="agentprofile.html">John Smith</a></h4>
+											<h4><a href="#">John Smith</a></h4>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum nisi eu ante mattis.</p>
 											<address>
 												<i class="fa fa-map-marker"></i> Office : 1-800-666-8888<br>
@@ -629,13 +629,13 @@
 								<div class="row pgl-midnarrow-row">
 									<div class="col-xs-5">
 										<div class="img-thumbnail-medium">
-											<a href="agentprofile.html"><img src="<?php bloginfo('template_directory');?>/images/agents/temp-agent.png" class="img-responsive" alt=""></a>
+											<a href="#"><img src="<?php bloginfo('template_directory');?>/images/agents/team-1.jpg" class="img-responsive" alt=""></a>
 										</div>
 									</div>
 									<div class="col-xs-7">
 										<div class="pgl-agent-info">
 											<small>NO.2.1</small>
-											<h4><a href="agentprofile.html">Andrew MCCarthy</a></h4>
+											<h4><a href="#">Andrew MCCarthy</a></h4>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum nisi eu ante mattis.</p>
 											<address>
 												<i class="fa fa-map-marker"></i> Office : 1-800-666-8888<br>

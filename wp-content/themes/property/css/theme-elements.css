@@ -449,9 +449,11 @@ hr {
 }
 /* line 344, ../sass/theme-elements.scss */
 .pgl-pro-tabs > li.active > a, .pgl-pro-tabs > li.active > a:hover, .pgl-pro-tabs > li.active > a:focus {
-  background-color: transparent;
-  border-color: #333333;
+  background-color: #dd2e19;
+  border-color: #dd2e19;
   border-width: 2px;
+  color: #fff !important;
+  border-radius: 8px;
 }
 
 /* nav-top */
@@ -1948,4 +1950,9 @@ hr {
     line-height: 34px;
     font-weight: 500;
     margin: 0;
+}
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img {
+    color: #124964 !important;
+    box-shadow: 0 0 0 1px #dd2e19, 0 0 2px 1px rgb(221 46 25) !important;
+    outline: 1px solid transparent !important;
 }
