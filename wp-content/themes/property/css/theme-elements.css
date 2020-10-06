@@ -264,7 +264,7 @@ blockquote footer:before {
 
 /* line 189, ../sass/theme-elements.scss */
 .pgl-bg-grey {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 /* line 193, ../sass/theme-elements.scss */
@@ -396,7 +396,7 @@ hr {
   display: -ms-flex;
   display: flex;
   font-weight: 700;
-  max-width: 500px;
+  max-width: 100%;
   position: relative;
   -ms-box-orient: horizontal;
   -ms-box-pack: center;
@@ -412,11 +412,11 @@ hr {
 /* line 310, ../sass/theme-elements.scss */
 .nav-tabs li {
   display: block;
-  text-align: center;
-  -webkit-flex: 1;
+  /* text-align: center; */
+  /* -webkit-flex: 1; */
   -moz-flex: 1;
   -ms-flex: 1;
-  flex: 1;
+  /* flex: 1; */
 }
 /* line 317, ../sass/theme-elements.scss */
 .nav-tabs li a {
@@ -434,26 +434,43 @@ hr {
   font-size: .857em;
   margin-bottom: 40px;
   text-transform: uppercase;
+  border: 1px solid;
 }
 /* line 334, ../sass/theme-elements.scss */
 .pgl-pro-tabs > li > a {
   border-width: 2px;
   color: #333333;
-  margin-right: -2px;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* margin-right: -2px; */
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 12px 8px;
+  border-bottom: 2px solid #fff;
+  border: none !important;
+  box-shadow: none !important;
 }
 /* line 340, ../sass/theme-elements.scss */
 .pgl-pro-tabs > li > a:hover, .pgl-pro-tabs > li > a:focus {
-  border-color: #333333;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dd2e19;
+  /* border-width: 2px; */
+  color: #dd2e19 !important;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #dd2e19 !important;
+  font-size: 15px;
 }
 /* line 344, ../sass/theme-elements.scss */
-.pgl-pro-tabs > li.active > a, .pgl-pro-tabs > li.active > a:hover, .pgl-pro-tabs > li.active > a:focus {
-  background-color: #dd2e19;
-  border-color: #dd2e19;
+.pgl-pro-tabs > li.active > a, .pgl-pro-tabs > li.active > a:hover {
+  background-color: #ffffff;
   border-width: 2px;
-  color: #fff !important;
-  border-radius: 8px;
+  color: #dd2e19 !important;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #dd2e19 !important;
+  box-shadow: none !important;
+  text-decoration: none;
 }
 
 /* nav-top */
@@ -589,11 +606,11 @@ hr {
 }
 /* line 457, ../sass/theme-elements.scss */
 .pgl-property:hover {
-  -webkit-transition: all 0.2s ease-in-out;
+  /* -webkit-transition: all 0.2s ease-in-out; */
   -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  /* transition: all 0.2s ease-in-out; */
+  /* -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); */
 }
 
 /* line 461, ../sass/theme-elements.scss */
@@ -1911,10 +1928,10 @@ hr {
 }
 
 /*Counter*/
-.counter
-{
+.counter {
     background-color: #dd2e19;
     text-align: center;
+    background: #222222 url(http://yapiprefabrik.net/wp-content/uploads/2020/06/footerbg.png) !important;
 }
 .employees,.customer,.design,.order
 {
@@ -1960,3 +1977,92 @@ hr {
     color: #ffffff;
     font-size: 50px;
 }
+
+
+/******************************************************************************/
+
+.mainPropertyWrap {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mainPropertyWrap h4 {
+    font-size: 16px;
+    line-height: initial;
+    font-weight: 700;
+}
+.mainPropertyWrap p {
+    font-size: 16px;
+}
+.mainPropertyWrap a.propertyDetail {
+    background: #dd2e19;
+    padding: 10px;
+    display: block;
+    max-width: 80px;
+    margin: 0 auto 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.pgl-pro-tabs > li.active > a:focus {
+    box-shadow: none !important;
+}
+
+.mainTabProperty:hover .propertyNameMain{
+  display: none;
+}
+
+
+.propertyDetail{
+  display: none;
+}
+
+.mainTabProperty:hover .propertyDetail{
+  display: block;
+  text-align: center;
+  background: #dd2e19;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  max-width: 100px;
+  margin: 30px auto;
+}
+.propertyNameMain {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+p.countHD {
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+}
+
+p.countHD span{
+  clear: both;
+  display: block;
+  text-align: center;
+}
+.socialMediaFooter ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 430px;
+    margin: 30px auto;
+    font-size: 30px;
+}
+.socialMediaFooter span {
+    font-size: 18px;
+    color: #fff;
+}
+
+.socialMediaFooter a:hover span{
+  color: #d84949;
+
+}
+
+
+
+
+

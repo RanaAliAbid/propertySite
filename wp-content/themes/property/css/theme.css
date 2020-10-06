@@ -26,7 +26,7 @@ body {
   left: 0;
   position: absolute;
   text-align: center;
-  top: -36px;
+  top: -40px;
   width: 240px;
 }
 /* line 32, ../sass/theme.scss */
@@ -95,7 +95,7 @@ body {
 }
 /* line 86, ../sass/theme.scss */
 .pgl-navbar-main .navbar-nav > li > a:hover, .pgl-navbar-main .navbar-nav > li > a:focus {
-  background-color: #111;
+  background-color: #dd2e19;
   color: white;
 }
 /* line 92, ../sass/theme.scss */
@@ -281,9 +281,10 @@ body {
 /* footer */
 /* line 237, ../sass/theme.scss */
 .pgl-footer {
-  background-color: #111;
-  color: #666666;
-  padding: 60px 0 20px;
+  background-color: #222222;
+  color: #fdfdfd;
+  padding: 0px 0;
+  text-align: center;
 }
 /* line 241, ../sass/theme.scss */
 .pgl-footer h2 {
@@ -319,8 +320,8 @@ body {
 
 /* line 265, ../sass/theme.scss */
 .pgl-copyrights {
-  border-top: 1px solid #222;
-  padding-top: 35px;
+  border-top: 1px solid #c7c7c7;
+  border-bottom: 1px solid #c7c7c7;
 }
 /* line 268, ../sass/theme.scss */
 .pgl-copyrights a {
@@ -329,4 +330,7 @@ body {
 /* line 270, ../sass/theme.scss */
 .pgl-copyrights a:hover, .pgl-copyrights a:focus {
   color: #666666;
+}
+.pgl-copyrights p {
+    font-size: 18px;
 }
