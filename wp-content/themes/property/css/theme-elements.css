@@ -2061,8 +2061,66 @@ p.countHD span{
   color: #d84949;
 
 }
+.tbay-breadscrumb.breadcrumbs-color, .tbay-breadscrumb.breadcrumbs-text {
+    background: #f4f9fc;
+}
+.tbay-breadscrumb.breadcrumbs-color .breadscrumb-inner, .tbay-breadscrumb.breadcrumbs-text .breadscrumb-inner {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 23px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 0;
+}
+.tbay-breadscrumb .breadcrumb {
+    padding: 15px 0;
+    background-color: transparent;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tbay-breadscrumb.breadcrumbs-color .breadscrumb-inner .breadcrumb, .tbay-breadscrumb.breadcrumbs-text .breadscrumb-inner .breadcrumb {
+    color: #000;
+    padding: 0;
+    font-weight: 400;
+    margin: 0;
+}
+.tbay-breadscrumb .breadcrumb li {
+    color: #333;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+.tbay-breadscrumb.breadcrumbs-color .breadscrumb-inner .breadcrumb a, .tbay-breadscrumb.breadcrumbs-text .breadscrumb-inner .breadcrumb a {
+    color: inherit !important;
+}
+.tbay-breadscrumb.breadcrumbs-color .page-title, .tbay-breadscrumb.breadcrumbs-text .page-title {
+    margin: 0;
+    line-height: 40px;
+    font-size: 28px;
+    font-weight: 700;
+}
+img.aboutImg {
+    width: 100%;
+}
+.aboutText p {
+    font-size: 16px;
+}
+section.regular.slider .slick-track .animation.mainTabProperty {
+    margin: 0 10px 1px;
+}
+section.regular.slider .slick-track .animation.mainTabProperty .propertyNameMain {
+    padding: 10px 0;
+}
 
 
-
-
-
+ul.referencesList li {
+    list-style: disc;
+    font-size: 18px;
+    line-height: 24px;
+}

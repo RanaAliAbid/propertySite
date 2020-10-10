@@ -85,9 +85,9 @@
 </a></li>
 						<li><a href="#apartment" role="tab" data-toggle="tab">PREFABRICATED REFECTORY
 </a></li>
-						<li><a href="#residential" role="tab" data-toggle="tab">PREFABRICATED WC SHOWER</a></li>
+						
 
-						<li><a href="#residential" role="tab" data-toggle="tab">EMERGENCY DISASTER STRUCTURES</a></li>
+						
 
 
 					</ul>

@@ -33,6 +33,13 @@
 					</ul>
 				</div>
 			</div>
+
+
+
+			
+
+
+
 			<nav class="navbar navbar-default pgl-navbar-main" role="navigation">
 				<div class="container">
 					<div class="navbar-header">
@@ -41,7 +48,25 @@
 							<img src="<?php bloginfo('template_directory');?>/images/logo.jpeg" alt="Flatize"></a> </div>
 					
 					<div class="navbar-collapse collapse width">
-						<ul class="nav navbar-nav pull-right">
+
+
+
+<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'top-menu',
+
+					// 'menu_id' => 'main-menu'
+
+					'container' => 'ul',
+					'menu_class' => 'nav navbar-nav pull-right',
+				)
+			);?>
+
+
+
+
+						<!-- <ul class="nav navbar-nav pull-right">
 							<li class="active"><a href="">Home</a>
 								
 							</li>
@@ -53,8 +78,14 @@
 							<li><a href="">Properties</a></li>
 
 							<li><a href="">Contact Us</a></li>
-						</ul>
+						</ul> -->
 					</div><!--/.nav-collapse --> 
 				</div><!--/.container-fluid --> 
 			</nav>
+
+
+
+
+
+
 		</header>
