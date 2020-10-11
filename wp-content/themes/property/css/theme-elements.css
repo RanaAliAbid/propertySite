@@ -476,7 +476,7 @@ hr {
 /* nav-top */
 /* line 354, ../sass/theme-elements.scss */
 .text-note {
-  margin: 8px 0 0 260px;
+  margin: 8px 0 0 0px;
 }
 /* line 356, ../sass/theme-elements.scss */
 .text-note .fa {

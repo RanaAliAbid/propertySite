@@ -21,7 +21,7 @@
 <body>
 	<div id="page">
 		<header>
-			<div id="top">
+		<!-- 	<div id="top">
 				<div class="container">
 					<p class="pull-left text-note hidden-xs"><i class="fa fa-phone"></i> Need Support? 1-800-666-8888</p>
 					<ul class="nav nav-pills nav-top navbar-right">
@@ -32,7 +32,7 @@
 						<li><a href="#" title="" data-placement="bottom" data-toggle="tooltip" data-original-title="Google+"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 				</div>
-			</div>
+			</div> -->
 
 
 

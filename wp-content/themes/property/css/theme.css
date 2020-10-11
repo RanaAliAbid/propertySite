@@ -21,17 +21,17 @@ body {
 
 /* line 24, ../sass/theme.scss */
 .logo {
-  background: #ffffff;
+  /* background: #ffffff; */
   height: 120px;
   left: 0;
   position: absolute;
   text-align: center;
-  top: -40px;
+  top: 0;
   width: 240px;
 }
 /* line 32, ../sass/theme.scss */
 .logo img {
-  margin-top: 30px;
+  margin-top: 16px;
   width: 240px;
 }
 
