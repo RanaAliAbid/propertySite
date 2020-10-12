@@ -297,10 +297,7 @@ get_header();?>
 				
 					
 				</div>
-			</section>
 			
-	
-		</div>
 
 
 <script type="text/javascript">
